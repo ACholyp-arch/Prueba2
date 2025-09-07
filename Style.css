@@ -1,0 +1,46 @@
+body {
+  font-family: 'Georgia', serif;
+  text-align: center;
+  background: linear-gradient(to bottom, #f9e6f1, #ffe6f0);
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  max-width: 500px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+h1 {
+  color: #d63384;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  margin: 10px 0;
+  width: 80%;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #d63384;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: #a32363;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #6f42c1;
+  font-size: 22px;
+}
